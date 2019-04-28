@@ -1,7 +1,7 @@
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://localhost:5432/spmia"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/spmia?characterEncoding=utf-8&useSSL=false"
 spring.datasource.username: "postgres_dev"
 spring.datasource.password: "qwerasdf"
 spring.datasource.testWhileIdle: "true"
